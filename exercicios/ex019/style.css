@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*Tudo em html e id  em css e (#) [so pode um elemento]
+    Tudo em html e class = em CSS e (.)[pode ter varios] */
+body{
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    color: lightgreen;
+    text-align: center;
+}
+.tituloprincipal{
+    color: aqua;
+}
+.basico{
+    text-align: justify;
+    background-color: navy
+    ;
+}
+.intermediario{
+ color: rgb(255, 0, 0);   
+}
+.avancado{
+    color: blueviolet;
+
+}
+.destaque
+{
+    background-color: yellow;
+}

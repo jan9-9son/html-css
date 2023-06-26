@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register to My Website</title>
+    <link rel="shortcut icon" href="favicon_io (1)/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1 id="nom">Welcome!,</h1>
+        <div>
+            <h2>Register</h2>
+            <p>Insert your full name <input type="text" name="fullname" id="fullname"></p>
+            <p id="birth">Insert your year of birth:</p>
+            <p><input type="number" name="txtano" id="txtano" placeholder="only numbers"></p>
+            <p>Select your gender:</p>
+            <p>Male<input type="radio" name="txtradio" id="txtradio">Female<input type="radio" name="txtradio" id="txtradio">
+                Not especified <input type="radio" name="txtnull" id="nul">
+            </p>
+            <h2>Type your email: <input type="email" name="txtemail" id="txtemail"></h2>
+            <input type="button"  id="button"value="Register"onclick='verificar()'></p>
+           <div></div>
+        
+        <div id="res"></div>
+    
+        <footer><a href="page02.html" target="_blank">&copy;Janson Janeiro</a>
+            <p><a href="login.html">Logout</a></p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+    <script>
+        let dat = new Date()
+        let horas = dat.getHours()
+        let nom = document.getElementById('nom')
+        if(horas>=0 &&horas<12){
+            nom.innerHTML = `Good morning`
+        }
+        else{if(horas>12&&horas<17){
+            nom.innerHTML=`Good afternoon`
+        }else{nom.innerHTML=`Good evening`}}
+    </script>
+</body>
+</html>
