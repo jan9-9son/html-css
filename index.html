@@ -10,107 +10,41 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-<style>
-     @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
-    *{
-        font-family: 'Tilt Prism', cursive;
-}
-main{
-    margin: auto;
-    max-width: 300px;
-    min-width: 200px;
-    margin: 200px auto;
-    padding: 40px;
-    text-align: center;
-    border-radius: 30px;
-    background-attachment: fixed;
-}
-body{background-image: url(pexels-ann-h-1762851.jpg);
-    background-color: #228CDB;
-    width: 100%;
-    height: 100%;
-}
-
-div#res{
-    text-align: center;
-
-}
-h2{
-    color: #373F51;
-    font-size: 11.5pt;
-}
-form{ background-color: #FCCA46;
-    margin: auto;
-    min-width: 300px;
-    max-width: 500px;
-    margin: 200px auto;
-    padding: 40px;
-    text-align: center;
-    border-radius: 20px;
-    border-width: 70px;
-    border-color: #228CDB;
-    background-attachment: fixed;
-} input{
-    display: none;
-    margin: 8px auto;
-    width: 150px;
-    height: 20px;
-}
-.text{
-    width: 200px;
-    height: 20px;
-}
-form:hover>input{
-    display: block;
-}a:visited{
-    color: #00C49A;
-    text-decoration: underline;
-
-}
-form>p{display: none;}
-a{
-    text-decoration: none;
-    color: #FE7F2D;
-    
-}
-form:hover>h4{
-    display: none;
-}
-
-form:hover>p{
-    display: block;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-a:hover{
-    color: #6cc2f8;
-    font-size: 16.5pt;
-}
-#botao:hover{
-    background-color: #228CDB;
-    border-style: dotted;
-    border-width: 3px;
-    border-color: #FE7F2D;
-    width: 150px;
-    height: 25px;
-    
-   
-
-}
-.input:hover{
-    background-color: #228CDB;
-    border: 5px;
-    border-style: groove;
-    border-width: 5px;
-}
-form:hover>h3{
-    font-style: italic;
-    font-size: 20pt;
-    color: aliceblue;
-}
-header{ text-align: center;
-        }
-
+<style>*{font-family: Arial, Helvetica, sans-serif;}
+    body{position: relative;
+        height: 97vh;
+       
+        background-size: contain;
+        background-color:#5A9E7D ;
+    }
+    form{
+        border: 1px solid #ABFFD6;
+        border-radius: 30px;
+        text-align: center;
+       width: 400px;
+       height: 250px;
+        background-color: #EB9286;
+        position: absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+    input{
+        width: 90px;
+    }
+    input.inputtext{
+        width: 100px;
+        height: 19px;
+        margin: 15px auto;
+        padding-right: 50px;
+        text-align: center;
+    }
+    a{  text-decoration: none;
+        color: black;
+        background-color: #86EBBA;
+        border-radius:2px ;
+        
+    }
 
 </style>
 </head>
@@ -119,8 +53,8 @@ header{ text-align: center;
     <form>
 
         <h3>Login</h3>
-        <input class="input text" type="text" placeholder="Enter your Username" id="login">
-        <input class="input text" type="password" placeholder="Enter your password" id="senha">
+        <input class="inputtext" type="text" placeholder="Enter your Username" id="login">
+        <input class="inputtext" type="password" placeholder="Enter your password" id="senha">
         <input type="submit" id="botao" value="Login" onclick="logar(); return false">
         <p><a href="register.html">Create Account</a></p>
         <p><a href="passrecovery.html" target="_blank">Forgot password</a></p>
