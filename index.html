@@ -39,23 +39,28 @@
        width: 200px;
        height: 20px;
        margin-bottom: 10px;
-       border-radius: 10px;
+       border-radius: 16px 8px;
        border: 10px;
         
     }
     #botao{
         background-color: #86EBBA;
-        border: 10px;
+        
        
+    }
+    #botao:hover{
+        border: #0000;
+        border-width: 10px;
     }
     a{  text-decoration: none;
         color: black;
         
-        border-radius:5px ;
+        border-radius:2.5px ;
+        padding: 10px;
         font-size: 10pt;
     }
     form>p>a:hover{
-        
+      
         background-color: #fff;
     }
 
@@ -66,8 +71,8 @@
     <form>
 
         <h3>Login</h3>
-        <input class="inputtext" type="text" placeholder="Enter your Username" id="login">
-        <input class="inputtext" type="password" placeholder="Enter your password" id="senha">
+        <input class="inputtext" type="text" placeholder="       Enter your Username" id="login">
+        <input class="inputtext" type="password" placeholder="       Enter your password" id="senha">
         <input type="submit" id="botao" value="Login" onclick="logar(); return false">
         <p><a href="register.html">Create Account</a></p>
         <p><a href="passrecovery.html" target="_blank">Forgot password</a></p>
