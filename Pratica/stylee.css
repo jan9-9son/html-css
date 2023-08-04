@@ -1,0 +1,21 @@
+body{margin: 0
+    ;
+    background-color:antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+
+}
+header{
+    background-color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+input{
+    text-align: right;
+}
+
+
+nav{
+    margin-top: 40px;
+    text-align: left;
+}
