@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    text-align: center;
+    margin: 0
+    ;
+    background-color: #6daf02;
+}
+
+header{
+    background-color: #8ddee7;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: black solid  5px 5px 5px;
+}
+div{
+
+    background-color: #41b6c6;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 30vh;
+    width: 30vw;
+    
+}
+span::after{
+    
+}
